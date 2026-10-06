@@ -11,44 +11,44 @@ st.set_page_config(
 # -----------------------------
 
 dashboard = st.Page(
-    "pages/dashboard.py",
+    "dashboard.py",
     title="Dashboard",
     icon="🏠",
     default=True
 )
 
 sales = st.Page(
-    "pages/sales.py",
+    "sales.py",
     title="Sales Analytics",
     icon="📊"
 )
 
 prediction = st.Page(
-    "pages/prediction.py",
+    "prediction.py",
     title="AI Prediction",
     icon="🤖"
 )
 
 inventory = st.Page(
-    "pages/inventory.py",
+    "inventory.py",
     title="Inventory",
     icon="📦"
 )
 
 waste = st.Page(
-    "pages/waste.py",
+    "waste.py",
     title="Food Waste",
     icon="🗑️"
 )
 
 sales_data = st.Page(
-    "pages/sales_data.py",
+    "sales_data.py",
     title="Sales Data",
     icon="📋"
 )
 
 food_management = st.Page(
-    "pages/food_management.py",
+    "food_management.py",
     title="Food Management",
     icon="🍱"
 )
